@@ -18,6 +18,9 @@ git = "https://github.com/gtk-rs/gdk"
 [dependencies.gtk]
 git = "https://github.com/gtk-rs/gtk"
 
+[dependencies.gio]
+git = "https://github.com/gtk-rs/gio"
+
 [features]
 #default = ["gtk_3_20"]
 gtk_3_10 = ["gtk/v3_10"]
@@ -63,3 +66,6 @@ name = "simple_treeview"
 
 [[bin]]
 name = "menu_bar"
+
+[[bin]]
+name = "gtkapplication"
